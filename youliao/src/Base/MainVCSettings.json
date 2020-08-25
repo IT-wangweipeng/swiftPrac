@@ -1,0 +1,22 @@
+[
+ {
+    "vcName": "NewsPageViewController",
+    "title": "有料",
+    "imageName": "icon_news"
+ },
+ {
+     "vcName": "VideoViewController",
+     "title": "视频",
+     "imageName": "icon_video"
+ },
+ {
+     "vcName": "GamesViewController",
+     "title": "夺宝",
+     "imageName": "icon_find"
+ },
+ {
+     "vcName": "AssetsViewController",
+     "title": "资产",
+     "imageName": "icon_profile"
+ }
+ ]
