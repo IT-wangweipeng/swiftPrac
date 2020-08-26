@@ -53,7 +53,7 @@
 		180A35BB242202520048D008 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		180A35BD242203600048D008 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		180A35C0242219B40048D008 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		180A35DC242229CB0048D008 /* 有料开发版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "有料开发版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A35DC242229CB0048D008 /* Swift开发版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift开发版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		180A36332423638C0048D008 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		180A363924236CB70048D008 /* NetServiceApis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetServiceApis.swift; sourceTree = "<group>"; };
 		1870FC882420C56B000D9E22 /* NewsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		1870FC942420E533000D9E22 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		1870FC972420E676000D9E22 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 		1870FC9A2420E6E9000D9E22 /* AssetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsViewController.swift; sourceTree = "<group>"; };
-		1874E833241F8A8B00161643 /* 有料看看.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "有料看看.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874E833241F8A8B00161643 /* Swift正式版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift正式版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1874E836241F8A8B00161643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1874E83F241F8A8E00161643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1874E844241F8A8E00161643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -327,8 +327,8 @@
 		1874E834241F8A8B00161643 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1874E833241F8A8B00161643 /* 有料看看.app */,
-				180A35DC242229CB0048D008 /* 有料开发版.app */,
+				1874E833241F8A8B00161643 /* Swift正式版.app */,
+				180A35DC242229CB0048D008 /* Swift开发版.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 			);
 			name = youliaoDev;
 			productName = youliao;
-			productReference = 180A35DC242229CB0048D008 /* 有料开发版.app */;
+			productReference = 180A35DC242229CB0048D008 /* Swift开发版.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1874E832241F8A8B00161643 /* youliao */ = {
@@ -406,7 +406,7 @@
 			);
 			name = youliao;
 			productName = youliao;
-			productReference = 1874E833241F8A8B00161643 /* 有料看看.app */;
+			productReference = 1874E833241F8A8B00161643 /* Swift正式版.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -575,7 +575,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qujie.tec.youliaoDev;
-				PRODUCT_NAME = "有料开发版";
+				PRODUCT_NAME = "Swift开发版";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -595,7 +595,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qujie.tec.youliaoDev;
-				PRODUCT_NAME = "有料开发版";
+				PRODUCT_NAME = "Swift开发版";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -729,7 +729,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qujie.tec.youliao;
-				PRODUCT_NAME = "有料看看";
+				PRODUCT_NAME = "Swift正式版";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -749,7 +749,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qujie.tec.youliao;
-				PRODUCT_NAME = "有料看看";
+				PRODUCT_NAME = "Swift正式版";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
